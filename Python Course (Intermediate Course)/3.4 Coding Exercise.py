@@ -1,0 +1,8 @@
+f = open("pythonessay.txt", "w")
+f.write("I like python because it's new to me compared to the other language.")
+f = open("pythonessay.txt", "a")
+f.write("\nI plan on to learn web apps.")
+f.write("\nI would like to work as web developer.")
+f.write("\nTo have a stable life.")
+f = open("pythonessay.txt", "r")
+f.close()
